@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="hesabe_knet_form">
+        <form t-att-action="api_url" method="get">
+            <input type="hidden" name="data" t-att-value="decryptToken"/>
+        </form>
+    </template>
+
+    <template id="hesabe_mpgs_form">
+        <form t-att-action="api_url" method="get">
+            <input type="hidden" name="data" t-att-value="decryptToken"/>
+        </form>
+    </template>
+</odoo>
+
